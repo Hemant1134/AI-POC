@@ -11,7 +11,7 @@ import SendIcon from "@mui/icons-material/Send";
 import MessageBubble from "./MessageBubble";
 import ChatHeader from "./ChatHeader";
 
-const BACKEND_URL = process.env.VITE_BACKEND_URL || "http://localhost:5000";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
 export default function ChatBox() {
   const [messages, setMessages] = useState([]);

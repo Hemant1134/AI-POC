@@ -39,6 +39,3 @@ coverage/
 # Misc
 *.swp
 *.swo
-
-.env
-.env.*
