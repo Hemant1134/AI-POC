@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "dotenv -e .env nodemon server.js"
+   "dev": "nodemon server.js",
+   "start": "node server.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
